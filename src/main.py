@@ -10,7 +10,7 @@ from gr_request import get_book_reviews
 from libgen_api import LibgenSearch
 
 intents = discord.Intents.default()
-intents.message_content = True
+intents.messages = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
